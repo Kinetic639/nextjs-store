@@ -1,5 +1,5 @@
 import type { TProductItem } from "@/ui/types";
-import {ProductList} from "@/ui/organisms/ProductList";
+import { ProductsList } from "@/ui/organisms/ProductsList";
 
 const products: TProductItem[] = [
 	{
@@ -47,7 +47,7 @@ const products: TProductItem[] = [
 export default function Home() {
 	return (
 		<section className="mx-auto max-w-screen-2xl p-12">
-			<ProductList products={products} />
+			<ProductsList products={products} />
 		</section>
 	);
 }
