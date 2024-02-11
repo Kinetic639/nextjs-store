@@ -1,7 +1,7 @@
 import { ProductItem } from "../molecules/ProductItem";
 import type { TProductItem } from "@/ui/types";
 
-export const ProductList = ({ products }: { products: TProductItem[] }) => {
+export const ProductsList = ({ products }: { products: TProductItem[] }) => {
 	return (
 		<ul
 			data-testid="products-list"
